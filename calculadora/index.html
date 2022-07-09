@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-2">
+        <div class="col">
+            <div class="row mb-4 h-100 d-flex align-items-center justify-content-center">Desenvolvido por: KaiqueBM - Github: <a class="h-100 d-flex align-items-center justify-content-center" href="https://github.com/KaiqueBM">https://github.com/KaiqueBM</a></div>
+        </div>
+        <label class="form-label">Valor de investimento </label>
+        <input class="form-control border border-primary" type="text" id="valor" name="valor" placeholder="Insira o valor" required> <br>
+        <label class="form-label">Período de investimento </label>
+        <select class="form-select border border-primary" id="tempo">
+            <option value="1"> Se tivesse investido 1 mês(es) atrás</option>
+			<option value="2"> Se tivesse investido 2 mês(es) atrás</option>
+			<option value="3"> Se tivesse investido 3 mês(es) atrás</option>
+			<option value="4"> Se tivesse investido 4 mês(es) atrás</option>
+			<option value="5"> Se tivesse investido 5 mês(es) atrás</option>
+			<option value="6"> Se tivesse investido 6 mês(es) atrás</option>
+			<option value="7"> Se tivesse investido 7 mês(es) atrás</option>
+			<option value="8"> Se tivesse investido 8 mês(es) atrás</option>
+			<option value="9"> Se tivesse investido 9 mês(es) atrás</option>
+			<option value="10"> Se tivesse investido 10 mês(es) atrás</option>
+			<option value="11"> Se tivesse investido 11 mês(es) atrás</option>
+			<option value="12"> Se tivesse investido 12 mês(es) atrás</option>
+        </select> <br>
+        <div class="d-grid gap-2">
+            <button onclick="calcularValor()" class="button btn btn-primary">Calcular Rendimento</button>
+        </div>
+        <div class="tabela" style="display:none">
+            <table class="table mt-3">
+                <thead>
+                    <tr>
+                        <th scope="col">Produto(s)</th>
+                        <th scope="col" id="text-periodo"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td id="mostrar1"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td id="mostrar2"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td id="mostrar3"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td id="mostrar4"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td id="mostrar5"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col">
+            <div class="row" id="line_top_x"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
