@@ -32,20 +32,20 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🚀 Site
 
 <p align="center">
-  <img alt="Notas" title="#Site" src="./assets/Home.png" width="1000px">
+  <img alt="Calculadora" title="#Site" src="./calculadora/assets/Home.png" width="1000px">
 </p>
 
 ## 🚀 Rodando a calculadora
 
 Eu coloco o valor do investimento e depois o periodo, podendo escolher de 1 a 12 meses e clico para calcular. Vai trazer uma tabela com 5 produtos, quando você teria ganhado se tivesse investido esse valor naquele periodo. Em baixo, trás um gráfico mostrando mês a mês.
 <p align="center">
-  <img alt="Notas" title="#Calculadora" src="./assets/Rodando.png" width="1000px">
+  <img alt="Calculadora" title="#Calculadora" src="./calculadora/assets/Rodando.png" width="1000px">
 </p>
 
 ## 🚀 Responsivo
 
 <p align="center">
-  <img alt="notas" title="#Responsivo1" src="./assets/Responsivo.png" width="500px">
+  <img alt="Calculadora" title="#Responsivo1" src="./calculadora/assets/Responsivo.png" width="500px">
 </p>
 
 ---
